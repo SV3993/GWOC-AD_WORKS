@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Mukta', sans-serif;
+}
+
+.header{
+      min-height: 90vh;
+      width: 100%;
+      background-image: url("fi.jpg");
+      background-position: center;
+      background-size: cover;
+      position: relative;
+       
+       
+      /* width: 500px;
+      height: 500px; */
+}   
+
+nav img{
+    display: flex;
+    padding: 2% 2%;
+    /* justify-content: space-between;
+    align-items: center; */
+    width: 150px;
+
+
+}
+
+    .textbox{
+           width: 90%;
+           color:white;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           text-align: center;
+    }
+
+    .textbox h1{
+        font-size: 62px;
+        font-weight: bolder;
+    }
+
+    .textbox p{
+        margin: 10px 0 40px;
+        font-size: 18px;
+        color: wheat;
+    }
+
+    .hero-btn{
+         display: inline-block;
+         text-decoration: none;
+         color: white;
+         border: 3px solid black;
+         padding: 12px 34px;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         background: transparent;
+         position: relative;
+         cursor: pointer; 
+    }
+
+    .hero-btn:hover{
+        border: 2px solid rgb(0, 157, 255);
+        background: rgb(0, 157, 255);
+    }
+
+    @media (max-width:700px) {
+        .textbox h1{
+            font-size: 20px;
+        }
+        
+    }
+
+    .services{
+         width: 80%;
+         margin: auto ;
+         text-align: center;
+         padding-top: 100px;
+    }
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+        font-family: Verdana;
+    }
+    p{
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: sans-serif;
+        line-height: 22px;
+        padding: 10px;
+    }
+
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service-col{
+              flex-basis: 31%;
+              background: rgb(210, 225, 250);
+              border-radius: 10px;
+              margin-bottom: 5%;
+              padding: 20px 12px;
+              box-sizing: border-box;
+              transition: 0.5s;
+    }
+
+    h3{
+        text-align: center;
+         font-weight: 600;
+         margin: 10px 0;
+    }
+
+    .service-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
+    }
+
+    @media (max-width:700px) {
+        .row{
+            flex-direction: column;
+        }
+    }
+
+    .ending {
+        padding: 10px;
+         text-align: center;
+         font-size: 10px;
+    }
+
+    .ending .hero-btn{
+        color: black;
+    }
+
+    .social-media-footer{
+        background-color: rgba(128, 128, 128, 0.942);
+
+    }
